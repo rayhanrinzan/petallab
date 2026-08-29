@@ -5,7 +5,11 @@ function App() {
     <div>
       <header>
         <a href="/" aria-label="Petal Lab home">
-          <img className="header-logo" src="/images/petal-lab-logo.svg" alt="Petal Lab" />
+          <img
+            className="header-logo"
+            src="/images/petal_logo_new.jpg"
+            alt="Petal Lab"
+          />
         </a>
       </header>
       <main>
