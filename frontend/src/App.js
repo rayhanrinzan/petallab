@@ -1,10 +1,23 @@
+import data from './data';
+
 function App() {
   return (
     <div>
       <header>
-        <a href="/">thepetallab</a>
+        <a href="/" aria-label="Petal Lab home">
+          <img className="header-logo" src="/images/petal-lab-logo.svg" alt="Petal Lab" />
+        </a>
       </header>
-      <main>list products</main>
+      <main>
+        <h1>Featured Products</h1>
+        {data.products.map((product) => (
+          <div>
+            <img src={product.image} alt={product.name} />
+            <p>{product.name}</p>
+            <p>${product.price}</p>
+          </div>
+        ))}
+      </main>
     </div>
   );
 }

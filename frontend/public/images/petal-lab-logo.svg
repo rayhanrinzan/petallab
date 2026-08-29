@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 80" role="img" aria-labelledby="title description">
+  <title id="title">Petal Lab</title>
+  <desc id="description">A flower symbol beside the Petal Lab wordmark</desc>
+  <g transform="translate(40 40)">
+    <ellipse cx="0" cy="-18" rx="10" ry="18" fill="#7f5bb3"/>
+    <ellipse cx="0" cy="-18" rx="10" ry="18" fill="#9575c6" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-18" rx="10" ry="18" fill="#aa8bd5" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-18" rx="10" ry="18" fill="#9575c6" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-18" rx="10" ry="18" fill="#aa8bd5" transform="rotate(288)"/>
+    <circle r="8" fill="#fff7dc"/>
+  </g>
+  <text x="82" y="51" fill="#3f3154" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="3">PETAL LAB</text>
+</svg>
